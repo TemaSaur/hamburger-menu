@@ -1,5 +1,5 @@
 const options = {
-	breakPoint: '860px', // media (max-width: xxx)
+	breakPoint: '860px', // media query
 	headerHeight: '100px',
 	menuWidth: '100vw',
 	menuBg: '#333',
