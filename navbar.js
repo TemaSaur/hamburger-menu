@@ -21,7 +21,7 @@ window.addEventListener('load', e => {
 	for (let i = 0; i < list.children.length; ++i) {
 		list.children[i].onclick = () => toggleActive(hamburger, list)
 	}
-}
+})
 
 const createHamburger = navbar => {
 	// create hamburger with ts-burger class
@@ -37,7 +37,7 @@ const createHamburger = navbar => {
 
 	// return the burger for later use
 	return hamburger
-})
+}
 
 const stylish = () => {
 	const style = document.createElement('style')
