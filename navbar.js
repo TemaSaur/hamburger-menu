@@ -37,7 +37,7 @@ const createHamburger = navbar => {
 
 	// return the burger for later use
 	return hamburger
-}
+})
 
 const stylish = () => {
 	const style = document.createElement('style')
