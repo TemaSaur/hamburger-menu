@@ -10,7 +10,7 @@ const options = {
 	burgerColor: '#fff'
 }
 
-window.onload = () => {
+window.addEventListener('load', e => {
 	// add hamburger icon to the navbar
 	const navbar = document.querySelector('[data-burger]')
 	const hamburger = createHamburger(navbar)
